@@ -1,2 +1,2 @@
-# Python-learning-app
+# Algo-Main
 Android application to learn python programming langauge. This app is made for my college semester project.
