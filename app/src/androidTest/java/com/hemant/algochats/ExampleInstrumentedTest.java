@@ -1,4 +1,4 @@
-package com.omkar.python;
+package com.hemant.algochats;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.omkar.python", appContext.getPackageName());
+        assertEquals("com.hemant.algochats", appContext.getPackageName());
     }
 }

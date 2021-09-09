@@ -1,25 +1,24 @@
-package com.clashians.algochats;
+package com.hemant.algochats;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.clashians.python.R;
+import com.hemant.python.R;
 
-public class datastructure1 extends AppCompatActivity {
-    private Bundle extras;
-    private WebView webView;
+class DataStructure extends AppCompatActivity {
 
+    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datastructure1);
-        webView = (WebView) findViewById(R.id.web_view4);
-        extras = getIntent().getExtras();
-        if (!extras.equals(null)) {
-
+        WebView webView = (WebView) findViewById(R.id.web_view4);
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
             String data = extras.getString("title");
             //  Toast.makeText(this,"data recevied",Toast.LENGTH_SHORT).show();
             String url = "file:///android_asset/datastructures/" + data + ".html";
@@ -29,9 +28,6 @@ public class datastructure1 extends AppCompatActivity {
             webSettings.setBuiltInZoomControls(true);
             webSettings.setDisplayZoomControls(true);
             webSettings.setJavaScriptEnabled(true);
-
-
         }
-
     }
 }

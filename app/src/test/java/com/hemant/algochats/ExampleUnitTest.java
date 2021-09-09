@@ -1,4 +1,4 @@
-package com.omkar.python;
+package com.hemant.algochats;
 
 import org.junit.Test;
 

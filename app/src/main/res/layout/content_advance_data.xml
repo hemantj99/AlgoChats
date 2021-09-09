@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.clashians.algochats.advanceDataActivity"
+    tools:context="com.hemant.algochats.advanceDataActivity"
     tools:showIn="@layout/activity_advance_data">
 
     <WebView

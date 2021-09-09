@@ -1,9 +1,9 @@
-package com.clashians.algochats;
+package com.hemant.algochats;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.clashians.python.R;
+import com.hemant.python.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -15,9 +15,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class advancedtutotials extends AppCompatActivity implements AdapterView.OnItemClickListener {
-
     ListView listView2;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,23 +29,14 @@ public class advancedtutotials extends AppCompatActivity implements AdapterView.
                 "Polymorphism","Enum","Python Database Access","Dealing with imperfection","Python Glossary","String Methods","Recursive Functions"};
         ArrayAdapter<String> arrayAdapter2=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,s2);
         listView2.setAdapter(arrayAdapter2);
-
-
-
     }
 
     @Override
     public void onItemClick(AdapterView< ? > adapterView, View view, int i, long l) {
         String value2=(String)listView2.getItemAtPosition(i);
         Toast.makeText(this,"Clicked "+value2,Toast.LENGTH_SHORT).show();
-
         Intent intent=new Intent(this,advanceDataActivity.class);
         intent.putExtra("title",value2);
         startActivity(intent);
-
-
-
-
-
     }
 }

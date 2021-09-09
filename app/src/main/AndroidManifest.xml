@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.clashians.python">
+    package="com.hemant.python">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -12,30 +12,30 @@
         android:roundIcon="@drawable/python"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.clashians.algochats.datastructure1"></activity>
-        <activity android:name="com.clashians.algochats.Datastructure" />
+        <activity android:name="com.hemant.algochats.datastructure1"></activity>
+        <activity android:name="com.hemant.algochats.NewDataStructure" />
         <activity
-            android:name="com.clashians.algochats.pragramDataActivity"
+            android:name="com.hemant.algochats.pragramDataActivity"
             android:label="@string/title_activity_pragram_data"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.clashians.algochats.programs"
+            android:name="com.hemant.algochats.programs"
             android:label="@string/title_activity_programs"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.clashians.algochats.advanceDataActivity"
+            android:name="com.hemant.algochats.advanceDataActivity"
             android:label="@string/title_activity_advance_data"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.clashians.algochats.advancedtutotials"
+            android:name="com.hemant.algochats.advancedtutotials"
             android:label="@string/title_activity_advancedtutotials"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.clashians.algochats.DataActivity"
+            android:name="com.hemant.algochats.DataActivity"
             android:label="@string/title_activity_data"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.clashians.algochats.MainActivity"
+            android:name="com.hemant.algochats.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

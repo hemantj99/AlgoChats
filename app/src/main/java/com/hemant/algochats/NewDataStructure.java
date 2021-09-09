@@ -1,4 +1,4 @@
-package com.clashians.algochats;
+package com.hemant.algochats;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,34 +9,28 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.clashians.python.R;
+import com.hemant.python.R;
 
-public class Datastructure extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class NewDataStructure extends AppCompatActivity implements AdapterView.OnItemClickListener {
     ListView listView4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datastructure);
-
         listView4=(ListView)findViewById(R.id.data_structure);
         listView4.setOnItemClickListener(this);
-        String str[] =new String[]{"Introduction to Trees","Trees Terminology","List Representation of Trees","Nodes and Refernces","Tree Traversal","Introduction to Graphs","Graphs Terminology",
+        String[] str =new String[]{"Introduction to Trees","Trees Terminology","List Representation of Trees","Nodes and Refernces","Tree Traversal","Introduction to Graphs","Graphs Terminology",
                 "The Graph Abstract Data Type","Graph Adjacency Matrix","Graph Adjacency List"};
         ArrayAdapter<String> arrayAdapter4=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,str);
         listView4.setAdapter(arrayAdapter4);
-
-
     }
 
     @Override
     public void onItemClick(AdapterView< ? > adapterView, View view, int i, long l) {
-
         String string=(String)listView4.getItemAtPosition(i);
        // Toast.makeText(this,"Clicked "+string,Toast.LENGTH_SHORT).show();
-
-        Intent intent=new Intent(this,datastructure1.class);
+        Intent intent=new Intent(this,DataStructure.class);
         intent.putExtra("title",string);
         startActivity(intent);
-
     }
 }
