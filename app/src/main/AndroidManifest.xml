@@ -15,7 +15,7 @@
         <activity android:name="com.hemant.algochats.datastructure1"></activity>
         <activity android:name="com.hemant.algochats.NewDataStructure" />
         <activity
-            android:name="com.hemant.algochats.pragramDataActivity"
+            android:name="com.hemant.algochats.programDataActivity"
             android:label="@string/title_activity_pragram_data"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

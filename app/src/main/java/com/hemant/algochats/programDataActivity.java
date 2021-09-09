@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class pragramDataActivity extends AppCompatActivity {
+public class programDataActivity extends AppCompatActivity {
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
