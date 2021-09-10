@@ -1,9 +1,13 @@
 # AlgoChats
+- This is a DSA (Data Structures and Algorithm) Android App with AI Chatbot. This app will help you in learning main concepts of DSA such as stacks, queues, arrays, linked lists, binary trees, graphs, sorting and many more algorithms at one platform which will help user in their placement as well as in building better concepts. It will provide progress report of each and every student via Push Notification or mail and save their progress in Firebase and its have Google auth to sign up and register as well as login which help us in storing progress reports.
+- Our second main feature is AI Chatbot specialized for DSA related questions which will interact with user and if any user have problem, he/she can ask to Chatbot and window will provide the related web link to user. We will use Google search API to extract web result and Dialogflow API to connect our app with Chatbot. I have used Native Android (Java and Kotlin) and for backend from Firebase.
+- And third main feature is community support where person can ask any question and anybody/Expert can answer to his/herquestion.
 
 ## Features:
-- Play with computers or Play with friends feature.
-- Used **Minimax algorithm** with **alpha-beta pruning** to play with computer.
-
+- All main DSA concepts at single platform.
+- Community Support with AI Chatbot to resolve queries.
+- Web Scrape the Google Results using Google search API.
+- Answer all the Queries and share geeksforgeeks or stackoverflow web links.
 
 ## To Run the Application
 
